@@ -1,0 +1,55 @@
+/* Réinitialisation de la marge et du padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+#titreprincipal {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #0055a5;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #004075;
+}
+
+/* Styles spécifiques au contenu (<?= $content ?>) en fonction de la structure HTML de la page. Vous pouvez ajouter des styles supplémentaires ici. */
+
